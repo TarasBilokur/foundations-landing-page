@@ -6,7 +6,7 @@ body {
     padding: 0;
 }
 
-.header, .main, .second, .fourth, .footer {
+.header, .main, .second, .footer {
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
@@ -86,12 +86,12 @@ a {
 }
 
 button {
+    background-color: #3882f6;
+    padding: 4px 12px;
+    border: none;
+    border-radius: 5px;
     color: white;
-    font-size: 18px;
-	background-color: #3882F6;
-	border: none;
-	border-radius: 8px;
-	font-weight: bold;
+    font-weight: 600;
 }
 
 /* Second */
@@ -172,25 +172,17 @@ button {
     background-color: #3882f6;
     margin: 48px 400px;
     border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 32px 400px;
+    padding: 24px;
 }
 
 .fourth button {
 	border: 2px solid white;
-	border-radius: 8px;
-	font-weight: bold;
 }
 
-.fourth-title {
-    font-size: 120%;
-    font-weight: 900;
-    color: white;
-    padding: 8px;
-}
-
-.fourth-text {
-    color: white;
-    padding: 8px;
-}
 
 /* Footer */
 
