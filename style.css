@@ -112,19 +112,37 @@ button {
 .second-container {
     display: flex;
     justify-content: center;
-    gap: 52px;
+    width: 100%;
+    gap: 32px;
+    margin-top: 20px;
 }
 
 .card {
-    max-width: 200px;
-    max-height: 300px;
+    height: 100px;
+    width: 150px;
+    text-align: center;
+    margin-right: 20px;
 }
 
 .card img {
-    height:100px;
-    width:100px;
-    border-radius: 10px;
-    border:solid blue 2px;
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid blue;
+    will-change: transform;
+    transition: transform 450ms;
+}
+
+.card img:hover {
+    transition: transform 125ms;
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+.second-text {
+    text-align: center;
+    color: #3d3d3d;
 }
 
 /* Third */
